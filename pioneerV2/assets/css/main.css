@@ -85,6 +85,9 @@ main #courses-section .grid-container {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 1rem;
 }
+main #courses-section .grid-container .card {
+  cursor: pointer;
+}
 main #courses-section .tab-title {
   padding-bottom: 1rem;
   border-bottom: 1px solid #c4c4c4;

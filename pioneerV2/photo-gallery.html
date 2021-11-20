@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/fonts/remixicon.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/gh/joy-dey/html-includer@latest/include-html-min.js" async></script>
 </head>
 
@@ -28,28 +29,57 @@
     <!-- main navigation -->
     <div class="navigation" data-include="partials/nav.html"></div>
   </header>
-  <main>    
+  <main>
+    <header class="header bg-dark text-white py-3">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <h3 id="header-title" class="mb-0 fw-bold">Photo Gallery</h3>
+              </div>
+              <div class="col-md-4">
+                  <nav aria-label="breadcrumb mb-0">
+                      <ol class="breadcrumb mb-0">
+                          <li class="breadcrumb-item">
+                              <a href="index.html" class="text-white text-decoration-none">Home</a>
+                          </li>                            
+                          <li class="breadcrumb-item active text-white fw-bold" aria-current="page" id="course-name">Photo Gallery</li>
+                      </ol>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>     
   <section id="photo-gallery" class="section-padding">
     <div class="container">
       <div id="gallery-grid">
         <div class="gallery-items">
-          <img src="http://www.goalinstitute.org/gallery/photo_thumb_img_4996.jpg" alt="" class="img-fluid">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
         </div>
         <div class="gallery-items">
-          <img src="http://www.goalinstitute.org/gallery/photo_thumb_img_4996.jpg" alt="" class="img-fluid">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
         </div>
         <div class="gallery-items">
-          <img src="http://www.goalinstitute.org/gallery/photo_thumb_img_4996.jpg" alt="" class="img-fluid">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
         </div>
         <div class="gallery-items">
-          <img src="http://www.goalinstitute.org/gallery/photo_thumb_img_4996.jpg" alt="" class="img-fluid">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
         </div>
         <div class="gallery-items">
-          <img src="http://www.goalinstitute.org/gallery/photo_thumb_img_4996.jpg" alt="" class="img-fluid">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
         </div>
         <div class="gallery-items">
-          <img src="http://www.goalinstitute.org/gallery/photo_thumb_img_4996.jpg" alt="" class="img-fluid">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
         </div>
+        <div class="gallery-items">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
+        </div>
+        <div class="gallery-items">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
+        </div>
+        <div class="gallery-items">
+          <img src="assets/img/imageDummy.png" alt="" class="img-fluid">
+        </div>
+        
       </div>
     </div>
   </section>
@@ -58,5 +88,6 @@
 </body>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </html>
